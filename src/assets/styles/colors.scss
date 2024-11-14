@@ -3,3 +3,19 @@ $secondary-color: #33C1FF;
 $highlight-color: #FFC300;
 $background-color: #F0F0F0;
 $text-color: #333333;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {
+  background-color: $primary-color;
+}
+
+.bg-secondary {
+  background-color: $secondary-color;
+}
+
+.text-primary {
+  color: $text-color;
+}
